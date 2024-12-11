@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none; /* Prevents selection */
+            -webkit-user-select: none; /* For Safari and Chrome */
+            -ms-user-select: none; /* For Internet Explorer */
+            -moz-user-select: none;
+        }
+        .archivo-black-regular {
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: 3px;
+        }
+
+        /* Hide scrollbar but allow scrolling */
+        #gamec::-webkit-scrollbar {
+            display: none; /* For Chrome, Safari, and Edge */
+        }
+        #gamec {
+            -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+            scrollbar-width: none;    /* For Firefox */
+        }
+    </style>
+</head>
+<body class="overflow-hidden">
+    <div class="w-screen h-screen flex justify-center items-center bg-gray-900 overflow-y-hidden">
+        <div class="w-[90%] md:w-[80%] h-[90%] flex flex-col lg:flex-row  lg:justify-around items-center gap-y-10">
+            <!-- --left-- -->
+            <div class="flex flex-col gap-y-5 items-center lg:items-start w-full lg:w-fit">
+                <p class="text-3xl lg:text-5xl text-white font-bold archivo-black-regular">Let's</p>
+                <p class="text-5xl lg:text-8xl text-white font-bold archivo-black-regular">Play</p>
+                <p class="text-xl lg:text-3xl text-white font-semibold">Made By Paras Waghela</p>
+            </div>
+
+            <!-- right -->
+            <div class="lg:w-[40%] lg:h-[60%] w-full md:w-[80%] overflow-y-auto flex flex-col gap-y-2" id="gamec">
+                <div class="hover:bg-gray-50/[0.2] w-full h-fit flex bg-gray-50/[0.1] px-2 rounded-md gap-x-3 cursor-pointer py-3" onclick="window.location='./map_game/map.html';">
+                    <img src="map_thumbnail.webp" class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-md">
+                    <div class="w-full flex flex-col justify-between">
+                        <p class="uppercase text-lg lg:text-2xl text-white font-bold">Map track</p>
+                        <div class="flex gap-x-2">
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Geography</span>
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Memorization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hover:bg-gray-50/[0.2] w-full h-fit flex bg-gray-50/[0.1] px-2 rounded-md gap-x-3 cursor-pointer py-3" onclick="window.location='./Mine/index.html';">
+                    <img src="mine_thumbnail.avif" class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-md">
+                    <div class="w-full flex flex-col justify-between">
+                        <p class="uppercase text-lg lg:text-2xl text-white font-bold">Mine Sweeper</p>
+                        <div class="flex gap-x-2">
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Observation</span>
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Logic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hover:bg-gray-50/[0.2] w-full h-fit flex bg-gray-50/[0.1] px-2 rounded-md gap-x-3 cursor-pointer py-3" onclick="window.location='./memory_math/homepage.html';">
+                    <img src="mm.png" class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-md">
+                    <div class="w-full flex flex-col justify-between">
+                        <p class="uppercase text-lg lg:text-2xl text-white font-bold">Memory Math</p>
+                        <div class="flex gap-x-2">
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Math</span>
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Memorization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hover:bg-gray-50/[0.2] w-full h-fit flex bg-gray-50/[0.1] px-2 rounded-md gap-x-3 cursor-pointer py-3" onclick="window.location='./TIC-TAC-TOE/t_t_t.html';">
+                    <img src="ttt2.avif" class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-md">
+                    <div class="w-full flex flex-col justify-between">
+                        <p class="uppercase text-lg lg:text-2xl text-white font-bold">TIC-TAC-TOE</p>
+                        <div class="flex gap-x-2">
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">Strategy</span>
+                            <span class="text-sm lg:text-md font-semibold text-white bg-white/[0.3] py-1 px-2 rounded-full">2-Player</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

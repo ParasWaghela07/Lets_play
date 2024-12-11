@@ -1,0 +1,943 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media screen and (max-width: 400px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 6.7vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        
+        font-size: 7vw;
+        width: 30vw;
+        height: 17vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    .ansContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #ansbox{
+        width: 35vw;
+        height: 6vh;
+        border-radius: 20vw;
+        font-size:6vw;
+        margin: 2vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 2vh;
+        /* border: 2px solid black; */
+        padding: 2vw;
+        font-size: 5vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 6vw;
+    }
+    
+    .guidelines{
+        margin: 2vh 2vw;
+        font-size: 5vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+}
+@media (max-width:500px) and (min-width:400px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 6.7vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 6vw;
+        width: 36vw;
+        height: 17vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 35vw;
+        height: 6vh;
+        border-radius: 20vw;
+        font-size:5vw;
+        margin: 2vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 2vh;
+        /* border: 2px solid black; */
+        padding: 2.2vw;
+        font-size: 4vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 6vw;
+    }
+    
+    .guidelines{
+        margin: 2vh 2vw;
+        font-size: 4.2vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+}
+@media (max-width:576px) and (min-width:501px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 6.7vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 5.1vw;
+        width: 30vw;
+        height: 17vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 26vw;
+        height: 6vh;
+        border-radius: 20vw;
+        font-size:5vw;
+        margin: 2vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 2vh;
+        /* border: 2px solid black; */
+        padding: 2vw;
+        font-size: 3.6vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 5vw;
+    }
+    
+    .guidelines{
+        margin: 2vh 2vw;
+        font-size: 3.8vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+   
+}
+
+
+@media (max-width:650px) and (min-width:576px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 6.7vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 5.1vw;
+        width: 30vw;
+        height: 20vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2.2vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 26vw;
+        height: 6vh;
+        border-radius: 20vw;
+        font-size:4.8vw;
+        margin: 1.6vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 4vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 1.7vh;
+        /* border: 2px solid black; */
+        padding: 2vw;
+        font-size: 3vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 5vw;
+    }
+    
+    .guidelines{
+        margin: 1.7vh 2vw;
+        font-size: 3.2vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+   
+}
+
+@media (max-width:800px) and (min-width:650px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 5.6vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 4.8vw;
+        width: 25vw;
+        height: 18vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2.2vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 23vw;
+        height: 6vh;
+        border-radius: 20vw;
+        font-size:4.3vw;
+        margin: 1.7vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 3.8vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 3.8vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 3.8vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 3.8vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 3.8vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 1.7vh;
+        /* border: 2px solid black; */
+        padding: 2vw;
+        font-size: 3.3vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 4.3vw;
+    }
+    
+    .guidelines{
+        margin: 1.7vh 2vw;
+        font-size: 3.3vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+   
+}
+
+@media (max-width:1000px) and (min-width:800px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 4.4vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 4vw;
+        width: 19vw;
+        height: 18vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2.2vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 20vw;
+        height: 6.3vh;
+        border-radius: 20vw;
+        font-size:3.5vw;
+        margin: 1.6vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 3.2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 3.2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 3.2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 3.2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 3.2vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 1.6vh;
+        /* border: 2px solid black; */
+        padding: 2vw;
+        font-size: 2.3vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 4.3vw;
+    }
+    
+    .guidelines{
+        margin: 1vh 2vw;
+        font-size: 2.2vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+   
+}
+
+@media (max-width:1200px) and (min-width:1000px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 3.6vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 3.6vw;
+        width: 16vw;
+        height: 18vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2.3vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 16vw;
+        height: 6.3vh;
+        border-radius: 20vw;
+        font-size:3vw;
+        margin: 1.2vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 3vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 3vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 3vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 3vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 3vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 1vh;
+        padding: 2vw;
+        font-size: 2vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 3vw;
+    }
+    
+    .guidelines{
+        margin: 0vh 2vw;
+        font-size: 1.7vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+}
+
+
+@media (max-width:1400px) and (min-width:1200px){
+    #slogan{
+        font-size: 0;
+    }
+    #Name{
+        font-size: 3vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 3vw;
+        width: 13vw;
+        height: 18vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2.3vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 13vw;
+        height: 6.3vh;
+        border-radius: 20vw;
+        font-size:2.2vw;
+        margin: 1.2vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 2vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 2vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 1vh;
+        padding: 1.5vw;
+        font-size: 1.5vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 2.5vw;
+    }
+    
+    .guidelines{
+        margin: 0vh 2vw;
+        font-size: 1.8vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:1700px) and (min-width:1400px){
+
+    #Name{
+        font-size: 2vw;
+    }
+
+    .body{
+        width: 100vw;
+    }
+    #num{
+        font-size: 2.2vw;
+        width: 9vw;
+        height: 18vh;
+        border-radius: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+
+    .note{
+        margin:2vh 1.5vw;
+        font-size: 2.3vh;
+        color: rgb(237, 5, 5);
+    }
+    .note h2{
+        color: black;
+    }
+
+    
+    #ansbox{
+        width: 11vw;
+        height: 6.3vh;
+        border-radius: 20vw;
+        font-size:1.8vw;
+        margin: 1.2vh 2vw;
+    }
+    #ansbox::-webkit-input-placeholder{
+        text-align: center;
+        font-size: 1.7vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-moz-placeholder{
+        text-align: center;
+        font-size: 1.7vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox:-ms-input-placeholder{
+        text-align: center;
+        font-size: 1.7vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::-ms-input-placeholder{
+        text-align: center;
+        font-size: 1.7vw;
+        color: rgb(190, 185, 185);
+    }
+    #ansbox::placeholder{
+        text-align: center;
+        font-size: 1.7vw;
+        color: rgb(190, 185, 185);
+    }
+    
+    #btn{
+        margin: 1vh;
+        padding: 1.1vw;
+        font-size: 1.2vw;
+        border-radius: 20%;
+    }
+    #signal{
+        font-size: 2.1vw;
+    }
+    
+    .guidelines{
+        margin: 0vh 2vw;
+        font-size: 1.7vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: end;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-weight: 400;
+    }
+}
+

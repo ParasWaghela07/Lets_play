@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none; /* Prevents selection */
+    -webkit-user-select: none; /* For Safari and Chrome */
+    -ms-user-select: none; /* For Internet Explorer */
+    -moz-user-select: none;
+}
+
+.tile{
+    background-color: rgba(255, 255, 255, 0.803);
+    border: 1px solid rgba(0, 0, 0, 0.237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.fillblack{
+    color:black;
+}
+
+.tile:hover{
+    background-color:rgba(255, 235, 255, 0.692);
+}

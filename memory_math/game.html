@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory_Math: Optimize your mind</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="reponsive2.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+         <p id="Name">MEMORY_MATH</p>
+         <p id="slogan">Powering Up Your Mental Math!</p>
+        </div>
+
+        <div class="body">
+            <p id="signal"></p>
+            <div id="num">START</div>
+        </div>
+        
+        
+
+        <div class="note flex">
+            <div><span>NOTE : <br></span>Answer only after all content appears</div>
+            <div class="guidelines flex gap-y-2">
+                <p id="reset" class="sm:p-2 p-1 flex justify-center items-center text-center" onclick="window.location='homepage.html'">Change Difficulty</p>
+                <p id="reset" class="p-2" onclick="window.location.reload()">Reset</p>
+            </div>
+        </div>
+
+        <div class="ansContainer">
+            <input type="number" id="ansbox" placeholder="Answer">
+        </div>
+
+        <div class="submit">
+            
+            <div id="btn">SUBMIT</div>
+        </div>
+
+
+        
+
+
+    </div>
+    <script src="homepage.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

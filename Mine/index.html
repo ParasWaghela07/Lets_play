@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="overflow-hidden">
+    <div class="relative w-[100vw] h-[100vh] flex flex-col-reverse lg:flex-row justify-center items-center bg-black/[0.8] gap-x-20 gap-y-10">
+        <div class="hidden absolute bg-red-400 lg:w-[50%] lg:h-[50%] h-[40%] flex flex-col text-2xl text-white justify-center items-center font-semibold rounded-lg shadow-lg"
+        id="lose">
+
+            
+            <img src="cancel.png" class="z-10 absolute right-0 top-0 w-20 transition-transform duration-300 hover:scale-110 cursor-pointer" id="cancelbtn">
+            
+            <div>
+                <p class="text-center p-4">
+                    <span class="block mb-4 text-3xl font-bold">Oops...You got mine!</span>
+                    Better luck next time.
+                </p>
+            </div>
+        </div>
+
+        <div class="hidden absolute bg-green-400 lg:w-[50%] lg:h-[50%] h-[40%] flex flex-col text-2xl text-white justify-center items-center font-semibold rounded-lg shadow-lg"
+        id="win">
+
+            
+            <img src="cancel.png" class="z-10 absolute right-0 top-0 w-20 transition-transform duration-300 hover:scale-110 cursor-pointer" id="cancelbtn2">
+            
+            <div>
+                <p class="text-center p-4 block mb-4 text-3xl font-bold">
+                    Congratulations..You won!
+                </p>
+                <p id="time" class="text-center"></p>
+            </div>
+        </div>
+        
+        <div class="w-[90%] h-[45%] md:w-[55%] lg:w-[40%] lg:h-[80%] grid " id="tilecontainer">
+        </div>
+
+        <div class="lg:w-[20%] lg:h-[80%] w-full h-fit flex flex-row lg:flex-col gap-y-20 items-center justify-around">
+            <!-- UpperWala -->
+            <div class="mt-4 lg:mt-0 w-[45%] h-fit lg:w-full bg-white/[0.6] flex py-2 gap-y-2 sm:gap-y-5 flex-col justify-around items-center text-xl lg:text-2xl rounded-lg px-4">
+                <p class="text-md font-semibold">Choose Grid :</p>
+                <div class="flex gap-x-2">
+                    <span id="deg1" class="flex justify-center items-center text-sm sm:text-lg hover:bg-violet-400 bg-violet-500 text-white font-medium py-1 px-2 rounded-lg cursor-pointer transition duration-200">4x4</span>
+                    <span id="deg2" class="flex justify-center items-center text-sm sm:text-lg hover:bg-violet-400 bg-violet-500 text-white font-medium py-1 px-2  rounded-lg cursor-pointer transition duration-200">6x6</span>
+                    <span id="deg3" class="flex justify-center items-center text-sm sm:text-lg hover:bg-violet-400 bg-violet-500 text-white font-medium py-1 px-2  rounded-lg cursor-pointer transition duration-200">8x8</span>
+                </div>
+
+                <div class="w-full h-fit flex flex-col justify-center items-center">
+                    <p class="text-sm sm:text-lg text-center font-bold">Custom</p>
+                    <div class="w-full flex gap-x-3">
+                        <div class="w-[45%] flex flex-col gap-y-1 justify-center items-center">
+                            <p class="text-sm sm:text-lg font-semibold">Degree</p>
+                            <input id="cst_deg" type="number" min="3" max="10" class="w-[90%] rounded-md bg-gray-100 px-1 text-[20px] outline-none text-center font-medium">
+                        </div>
+                        
+                        <div class="w-[45%] flex flex-col gap-y-1 justify-center items-center">
+                            <p class="text-sm sm:text-lg font-semibold">Mine</p>
+                            <input id="cst_mine" type="number" min="3" max="90" class="w-[90%] rounded-md bg-gray-100 px-1  text-[20px]  outline-none text-center font-medium">
+                        </div>
+                    </div>
+                    <button id="custom-btn" class="text-sm sm:text-lg bg-violet-500 w-fit px-2 py-1 mt-5 rounded-lg hover:bg-violet-400 font-semibold text-white transition duration-200">Setup</button>
+                </div>
+            </div>
+            
+            <div class="w-[45%] h-fit lg:w-full bg-white/[0.6]  flex py-7 gap-y-5 flex-col justify-around items-center text-xl lg:text-2xl rounded-lg">
+                <p id="mines" class="text-sm sm:text-xl font-bold text-red-600"></p>
+                <p id="safetiles" class="text-sm sm:text-xl font-bold text-green-800"></p>
+                <i class="fa fa-refresh text-violet-700 cursor-pointer" aria-hidden="true" id="refresh"></i>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
