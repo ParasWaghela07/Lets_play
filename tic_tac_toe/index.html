@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ttt.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none; /* Prevents selection */
+            -webkit-user-select: none; /* For Safari and Chrome */
+            -ms-user-select: none; /* For Internet Explorer */
+            -moz-user-select: none;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(155deg, #eceff1, #5a90bc);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #263238;
+        }
+    
+        .main1 {
+            width: 100vw;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .main2 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+    
+        .con {
+            width: 30vw;
+            height: 30vw;
+            display: flex;
+            flex-direction: column;
+            background: #ffffff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    
+        .row1, .row2, .row3 {
+            display: flex;
+            flex: 1;
+        }
+    
+        .col {
+            flex: 1;
+            border: 1px solid #cfd8dc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #37474f;
+            transition: background 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+    
+        .col:hover {
+            background: #bbdefb;
+            color: #0d47a1;
+        }
+    
+        .lb {
+            border-left: none;
+        }
+    
+        .rb {
+            border-right: none;
+        }
+    
+        .tb {
+            border-top: none;
+        }
+    
+        .bb {
+            border-bottom: none;
+        }
+    
+        #bari {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    
+        #reset {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            color: #ffffff;
+            background: #4caf50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+    
+        #reset:hover {
+            background: #e53935;
+            transform: translateY(-2px);
+            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+        }
+    
+        @media (min-width: 1200px) {
+            .con {
+                width: 25vw;
+                height: 25vw;
+            }
+            .col {
+                font-size: 3em;
+            }
+        }
+    
+        @media (max-width: 992px) {
+            .con {
+                width: 40vw;
+                height: 40vw;
+            }
+            .col {
+                font-size: 3em;
+            }
+            #bari {
+                font-size: 1.2em;
+            }
+        }
+    
+        @media (max-width: 576px) {
+            .con {
+                width: 80vw;
+                height: 80vw;
+            }
+            .col {
+                font-size: 2em;
+            }
+            #bari {
+                font-size: 1em;
+            }
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="main1">
+        <div class="con">
+            <div class="row1">
+                <div id="op1" class="col col1 lb tb rb"></div>
+                <div id="op2" class="col col2 tb rb"></div>
+                <div  id="op3" class="col col3 tb rb"></div>
+            </div>
+            <div class="row2">
+                <div  id="op4" class="col col4 lb bb rb"></div>
+                <div  id="op5" class="col col5 bb rb"></div>
+                <div  id="op6" class="col col6 rb bb"></div>
+            </div>
+            <div class="row3">
+                <div  id="op7" class="col col7 lb bb rb"></div>
+                <div  id="op8" class="col col8 bb rb"></div>
+                <div  id="op9" class="col col9 bb rb"></div>
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+        <p id="bari">TURN FOR : X</p>
+    <span id="reset">RESET</span>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
