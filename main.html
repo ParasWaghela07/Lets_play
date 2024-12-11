@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Games by Paras Waghela</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="game-controller.png" type="image/x-icon">
     <style>
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            user-select: none; /* Prevents selection */
-            -webkit-user-select: none; /* For Safari and Chrome */
-            -ms-user-select: none; /* For Internet Explorer */
+            user-select: none; 
+            -webkit-user-select: none;
+            -ms-user-select: none; 
             -moz-user-select: none;
         }
         .archivo-black-regular {
@@ -34,13 +35,29 @@
             -ms-overflow-style: none;  /* For Internet Explorer and Edge */
             scrollbar-width: none;    /* For Firefox */
         }
+
+        @keyframes slide {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+
+        #Text{
+            animation: slide 1.5s 0.1s ease-in-out;
+        }
+ 
+
     </style>
 </head>
 <body class="overflow-hidden">
     <div class="w-screen h-screen flex justify-center items-center bg-gray-900 overflow-y-hidden">
         <div class="w-[90%] md:w-[80%] h-[90%] flex flex-col lg:flex-row  lg:justify-around items-center gap-y-10">
             <!-- --left-- -->
-            <div class="flex flex-col gap-y-5 items-center lg:items-start w-full lg:w-fit">
+            <div id="Text" class="flex flex-col gap-y-5 items-center lg:items-start w-full lg:w-fit">
                 <p class="text-3xl lg:text-5xl text-white font-bold archivo-black-regular">Let's</p>
                 <p class="text-5xl lg:text-8xl text-white font-bold archivo-black-regular">Play</p>
                 <p class="text-xl lg:text-3xl text-white font-semibold">Made By Paras Waghela</p>

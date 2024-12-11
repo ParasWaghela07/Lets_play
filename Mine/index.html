@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mine Sweeper : By Paras Waghela</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../mine_thumbnail.avif" type="image/x-icon">
 </head>
 <body class="overflow-hidden">
-    <div class="relative w-[100vw] h-[100vh] flex flex-col-reverse lg:flex-row justify-center items-center bg-black/[0.8] gap-x-20 gap-y-10">
+    <div class="relative w-[100vw] h-[100vh] flex flex-col-reverse lg:flex-row justify-center items-center bg-black/[0.8] gap-x-20 gap-y-20">
         <div class="hidden absolute bg-red-400 lg:w-[50%] lg:h-[50%] h-[40%] flex flex-col text-2xl text-white justify-center items-center font-semibold rounded-lg shadow-lg"
         id="lose">
 
@@ -38,7 +39,7 @@
             </div>
         </div>
         
-        <div class="w-[90%] h-[45%] md:w-[55%] lg:w-[40%] lg:h-[80%] grid " id="tilecontainer">
+        <div class="w-[90%] h-[45%] md:w-[55%] lg:w-[40%] lg:h-[80%] grid mb-20 md:mb-0" id="tilecontainer">
         </div>
 
         <div class="lg:w-[20%] lg:h-[80%] w-full h-fit flex flex-row lg:flex-col gap-y-20 items-center justify-around">
